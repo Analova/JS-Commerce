@@ -20,7 +20,7 @@ const AddressForm = ({checkoutToken}) => {
 
     console.log(countries )
     setShippingCountries(countries);
-    // setShippingCountry(Object.keys(countries)[0]);
+    
   };
 
    useEffect(() => {
