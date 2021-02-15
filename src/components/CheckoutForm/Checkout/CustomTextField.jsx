@@ -12,6 +12,7 @@ function FormInput({ name, label, required }) {
         as={TextField}
         name={name}
         control={control}
+        defaultValue=""
         label={label}
         fullWidth
         required={required}
